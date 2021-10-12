@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=ENZO
+Comment=ENZO P2P Cryptocurrency
+Comment[fr]=ENZO, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ENZO, eşten eşe kriptografik sanal para birimi
+Exec=enzo-qt %u
+Terminal=false
+Type=Application
+Icon=enzo128
+MimeType=x-scheme-handler/enzo;
+Categories=Office;Finance;
+StartupWMClass=enzo-qt

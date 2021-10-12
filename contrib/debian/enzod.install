@@ -1,0 +1,3 @@
+usr/local/bin/enzod usr/bin
+usr/local/bin/enzo-cli usr/bin
+debian/examples/enzo.conf etc/enzo

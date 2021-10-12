@@ -1,0 +1,8 @@
+/usr/bin/enzo-cli		--	gen_context(system_u:object_r:enzo_exec_t,s0)
+/usr/sbin/enzod		--	gen_context(system_u:object_r:enzo_exec_t,s0)
+/usr/lib(64)?/enzo/enzod		--	gen_context(system_u:object_r:enzo_exec_t,s0)
+
+/etc/enzo(/.*)?		gen_context(system_u:object_r:enzo_conf_t,s0)
+/var/lib/enzo(/.*)?		gen_context(system_u:object_r:enzo_var_lib_t,s0)
+
+(/var)?/run/enzod(/.*)?   gen_context(system_u:object_r:enzo_var_run_t,s0)

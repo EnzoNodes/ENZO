@@ -1,0 +1,6 @@
+usr/local/bin/enzo-qt usr/bin
+share/pixmaps/enzo32.xpm usr/share/pixmaps
+share/pixmaps/enzo16.xpm usr/share/pixmaps
+share/pixmaps/enzo128.png usr/share/pixmaps
+debian/enzo-qt.desktop usr/share/applications
+debian/enzo-qt.protocol usr/share/kde4/services/
